@@ -1,0 +1,72 @@
+ ::before, ::after{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+ body{
+   height: 100vh;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ .tableau-style{
+   width: 100%;
+   border-collapse: collapse;
+   min-width: 400px;
+   width: auto;
+   box-shadow: 0 5px 50px rgba(0,0,0,0,15);
+   cursor: pointer;
+   margin: 100px auto;
+   border: 3px solid midnightblue;
+ }
+thead tr{
+  background-color: #2C303B;
+  color: #fff;
+  text-align: center;
+}
+th, td{
+  padding: 15px 20px;
+}
+
+tbody tr, td, th{
+  border: 2px solid black;
+}
+
+tbody tr:nth-child(even){
+  background-color: #AEB7B3;
+  width: 10%;
+}
+
+h1{
+  text-decoration: underline red;
+}
+
+.réunion{
+  text-align: center;
+  background-color: red
+}
+
+.lucas{
+  background-color: yellow;
+}
+
+.anniversaire{
+  background-color: orange;
+}
+
+.sport{
+  background-color: lightgreen;
+}
+
+.work{
+  text-align: center;
+  background-color: #0AF7FF;
+}
+
+.repas{
+  text-align: center;
+  background-color: #FA760A;
+}
+
+.bricolage{
+  text-align: center;
+  background-color: pink;
+}
